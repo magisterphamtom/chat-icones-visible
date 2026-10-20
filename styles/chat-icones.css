@@ -1,0 +1,34 @@
+/*
+ * Chat — icônes toujours visibles
+ * Le cœur de Foundry v14 range les icônes sous le chat dans « #chat-controls »
+ * (display:flex, sans retour à la ligne) : #message-modes (modes de message) à gauche,
+ * .control-buttons (export, vider le chat…) à droite. Au-delà de la largeur, les icônes
+ * sortent du cadre. On autorise simplement le retour à la ligne.
+ * Actif seulement si la classe « civ-wrap » est posée sur <body> (réglage du module).
+ */
+body.civ-wrap .chat-sidebar #chat-controls,
+body.civ-wrap #chat-popout #chat-controls {
+  flex-wrap: wrap;
+  gap: 4px 8px;
+}
+
+body.civ-wrap .chat-sidebar #chat-controls #message-modes,
+body.civ-wrap #chat-popout #chat-controls #message-modes {
+  flex-wrap: wrap;
+  min-inline-size: 0;
+}
+
+body.civ-wrap .chat-sidebar #chat-controls .control-buttons,
+body.civ-wrap #chat-popout #chat-controls .control-buttons {
+  flex-wrap: wrap;
+  min-inline-size: 0;
+  margin-inline-start: auto;
+  justify-content: flex-end;
+}
+
+/* Icônes ajoutées par d'autres modules directement dans la barre */
+body.civ-wrap .chat-sidebar #chat-controls > *,
+body.civ-wrap #chat-popout #chat-controls > * {
+  min-inline-size: 0;
+  max-inline-size: 100%;
+}

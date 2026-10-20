@@ -1,0 +1,28 @@
+{
+  "id": "chat-icones-visibles",
+  "title": "Chat — icônes toujours visibles",
+  "description": "Quand la rangée d'icônes sous le chat (modes de message, export, vider le chat, et celles ajoutées par d'autres modules) est trop longue, les icônes passent à la ligne au lieu de sortir du cadre. Fonctionne avec tous les systèmes. Foundry v14.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "magisterphamtom",
+      "url": "https://github.com/magisterphamtom"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/chat-icones.css"
+  ],
+  "url": "https://github.com/magisterphamtom/chat-icones-visibles",
+  "manifest": "https://github.com/magisterphamtom/chat-icones-visibles/releases/latest/download/module.json",
+  "download": "https://github.com/magisterphamtom/chat-icones-visibles/releases/download/v1.0.0/module.zip",
+  "bugs": "https://github.com/magisterphamtom/chat-icones-visibles/issues",
+  "readme": "https://github.com/magisterphamtom/chat-icones-visibles/blob/main/README.md",
+  "license": "https://github.com/magisterphamtom/chat-icones-visibles/blob/main/LICENSE"
+}
