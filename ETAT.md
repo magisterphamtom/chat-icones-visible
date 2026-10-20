@@ -1,4 +1,4 @@
-# État — chat-icones-visibles
+# État — chat-icones-visible
 
 ## Fait (v1.0.0)
 - CSS : `flex-wrap` sur `#chat-controls`, `#message-modes` et `.control-buttons` (barre latérale et fenêtre détachée), activé par la classe `civ-wrap` sur `<body>`.

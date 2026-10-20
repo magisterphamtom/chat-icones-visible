@@ -1,4 +1,4 @@
-const ID = "chat-icones-visibles";
+const ID = "chat-icones-visible";
 
 function applyClass() {
   let on = true;

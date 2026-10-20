@@ -12,4 +12,4 @@ Les icônes passent à la ligne suivante quand la place manque. Rien d'autre n'e
 « Icônes du chat à la ligne » (Configuration → Paramètres des modules), activé par défaut, propre à chaque joueur.
 
 ## Installation
-Lien du manifeste : `https://github.com/magisterphamtom/chat-icones-visibles/releases/latest/download/module.json`
+Lien du manifeste : `https://github.com/magisterphamtom/chat-icones-visible/releases/latest/download/module.json`
