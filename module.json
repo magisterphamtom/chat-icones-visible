@@ -24,5 +24,11 @@
   "download": "https://github.com/magisterphamtom/chat-icones-visible/releases/download/v1.0.0/module.zip",
   "bugs": "https://github.com/magisterphamtom/chat-icones-visible/issues",
   "readme": "https://github.com/magisterphamtom/chat-icones-visible/blob/main/README.md",
-  "license": "https://github.com/magisterphamtom/chat-icones-visible/blob/main/LICENSE"
+  "license": "https://github.com/magisterphamtom/chat-icones-visible/blob/main/LICENSE",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/magisterphamtom/chat-icones-visible/main/.github/banner.png"
+    }
+  ]
 }

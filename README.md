@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.png" alt="Chat — icônes toujours visibles" width="100%"></p>
+
 # Chat — icônes toujours visibles
 
 Module Foundry VTT v14 (tous systèmes, testé pour D&D 5e).
